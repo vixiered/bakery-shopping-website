@@ -1,0 +1,310 @@
+
+
+.dropdown-content {
+  display: none; /* stays as is for dropdown toggle */
+  margin: 10px 0;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid rgb(100,16,11);
+  border-radius: 8px;
+  transition: 0.5s;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.radio-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+
+
+.dropdown-content label{
+    padding-left: 10px;
+}
+
+.dropdown-btn {
+  background-color: transparent;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  text-align: left;
+  height: 50px;
+  border: 1px solid rgb(100,16,11);
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+.menuu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    column-gap: 18px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius:5px ;
+    margin: 10px;
+}
+
+.menuu *{
+    outline: none;
+}
+
+
+
+/* Hide native radio */
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+/* This ensures each radio-label (the cake block) is spaced properly */
+.custom-radio {
+  flex: 1 1 200px; /* 200px is base size, auto-wraps to next line */
+  width: 200px;
+}
+
+.it {
+  flex: 1 1 200px; /* 200px is base size, auto-wraps to next line */
+  width: 200px;
+}
+
+
+/* Style the label span */
+.custom-radio .radio-label {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid rgb(100,16,11);
+  border-radius: 5px;
+  background-color: transparent;
+  color: rgb(100,16,11);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 5px 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Change appearance when selected */
+.custom-radio input[type="radio"]:checked + .radio-label {
+  background-color: rgba(145, 50, 45, 0.507);
+  color: white;
+}
+
+.it input[type="radio"]:checked + .radio-label {
+  background-color: rgba(145, 50, 45, 0.507);
+  color: white;
+}
+
+.ig{
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+    border: 1px solid rgb(100,16,11);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.drip{
+    background-image: url(../menu/Opera\ Instantané_2025-05-30_151936_i.pinimg.com.png);
+}
+
+.naked{
+    background-image: url(../menu/af4163189ff42eae590be41dffb5e88d.jpg);
+}
+
+
+.tall{
+    background-image: url(../menu/7322c966954190a582d1280bfda0d309.jpg);
+}
+
+.short{
+    background-image: url(../menu/90725a8f63d93ba9dc587f23dbb8acce.jpg);
+}
+
+.square{
+    background-image: url(../menu/25d5480a3beef2283cd31f5bc99c3d3b.jpg);
+}
+
+.wedding{
+    background-image: url(../menu/e499d2dce754dc5917b370d1cbb9aa43.jpg);
+}
+
+.birthd{
+    background-image: url(../menu/5a9bc71779b2dc2ba0005a26286ae244.jpg);
+}
+.grad{
+    background-image: url(../menu/73f43178835454234c229349830e4f55.jpg);
+}
+.party{
+    background-image: url(../menu/4dc3f2392d260bfde82219d4e7efe5ee.jpg);
+}
+.vanilla{
+    background-image: url(../menu/f294f623a1c6705364c40aa2aae953f0.jpg);
+}
+.choc{
+    background-image: url(../menu/3dd0925c9d2c906f2a50b5528314542f.jpg);
+}
+.red{
+    background-image: url(../menu/ccdc593977266ae81524a87a07916086.jpg);
+}
+.straw{
+    background-image: url(../menu/e9ffbf27b9da931344cb44e7676f9fc1.jpg);
+}
+.lemon{
+    background-image: url(../menu/09f1559e27ff30368097e2e089e7268e.jpg);
+}
+.cherry {
+    background-image: url(../menu/4f9e193a883e4b5fd1e51ce9fd1f872e.jpg);
+}
+.almon{
+    background-image: url(../menu/f42fe60f1befa92a20fa2d9567b9e227.jpg);
+}
+.caramel{
+    background-image: url(../menu/5c6fac0940225e4767820966321962e2.jpg);
+}
+.fruit{
+    background-image: url(../menu/be47a65956fc799786ab716993e034ed.jpg);
+}
+.choco{
+    background-image: url(../menu/4c890bca80a08d6018100e1e3e9a8632.jpg);
+}
+.frost{
+    background-image: url(../menu/647790638fb904b7d55dc6e6fa7ad69e.jpg);
+}
+.flower{
+    background-image: url(../menu/949681b5e96e01dbd5fa4397f718a0f8.jpg);
+}
+.nut{
+    background-image: url(../menu/048258013859a93e34dada6e7009502e.jpg);
+}
+
+.maca{
+    background-image: url(../menu/15fdf8e28ccd13215f69fd0351243497.jpg);
+}
+.tiramisu{
+    background-image: url(../menu/bc2615191afdd7b32d2f8bfc92933b17.jpg);
+}
+.coffee{
+    background-image: url(../menu/2ef14cead6c4512264c744cada5f853e.jpg);
+}
+
+.it .radio-label{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(100,16,11);
+    background-color: transparent;
+    display: inline-block;
+  color: rgb(100,16,11);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 5px 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 200px;
+}
+
+.it input[type="radio"] {
+  display: none;
+}
+
+.priccee{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    padding: 10px;
+
+}
+
+.add{
+    width: 150px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    font-style: oblique;
+    font-size: 15px;
+    border: 1px dashed rgb(100,16,11);
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.add:hover{
+    box-shadow: 0 0 10px rgb(100,16,11);
+    background-color: rgba(255, 255, 255, 0.327);
+}
+
+.add:active{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.twelve{
+    background-image: url('../menu/image\ \(7\).png');
+}
+.twentyfour{
+    background-image: url('../menu/image\ \(8\).png');
+}
+.thirtytwo{
+    background-image: url('../menu/image\ \(9\).png');
+}
+.thirtyeight{
+    background-image: url('../menu/image\ \(6\).png');
+}
+.fiftysix{
+    background-image: url('../menu/image\ \(5\).png');
+}
+.thirtysix{
+    background-image: url('../menu/image\ \(10\).png');
+}
+.fourtyfour{
+    background-image: url('../menu/image\ \(4\).png');
+}
+.sixtytwo{
+    background-image: url('../menu/image\ \(11\).png');
+}
+.seventyfour{
+    background-image: url('../menu/image\ \(3\).png');
+}
+.hundered{
+    background-image: url('../menu/image\ \(2\).png');
+}
+.hunderedtwentyeight{
+    background-image: url('../menu/image\ \(1\).png');
+}
+.hunderedthirty{
+    background-image: url(../menu/image.png);
+}
+.twohunderedeight{
+    background-image: url(../menu/image2.png);
+}

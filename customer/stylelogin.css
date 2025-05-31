@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'monsieur la doulaise';
+    src: url(../../fonts/monsieur-la-doulaise/MonsieurLaDoulaise-Regular.ttf);
+}
+
+.lg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+}
+
+.log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* align-content: space-evenly; */
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.319);
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    padding: 20px 0 20px 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family:'monsieur la doulaise';
+}
+
+.container{
+    margin-top: 150px;
+    padding: 100px;
+}
+
+.log div input{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(100, 16, 11);
+    padding-left: 10px;
+    background-color: white;
+    color: gray;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.log div input:hover{
+    box-shadow: 0 0 5px rgb(100,16,11);
+    border: 1px solid rgb(100,16,11);
+}
+
+.log div label{
+    color: black;
+    font-size: 20px;
+    padding: 0 0 5px 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.in{
+   height: 35px ;
+   width: 200px; 
+   margin: 20px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   background-color: white;
+   color: black;
+}
+
+.in span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.in:hover{
+    box-shadow: 0 0 10px rgb(100,16,11);
+    border: 1px solid rgb(100,16,11);
+    background-color: white;
+    color: rgb(100,16,11);
+}
+
+.l a{
+    text-decoration: none;
+    color: gray;
+
+}
+
+.l a:hover{
+    text-shadow: 0 0 10px rgb(88, 14, 10);
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

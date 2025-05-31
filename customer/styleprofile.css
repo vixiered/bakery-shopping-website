@@ -1,0 +1,128 @@
+.container{
+        align-items: center;
+}
+
+.hi{
+    font-family: 'monsieur la doulaise';
+    font-size: 70px;
+    color: rgb(100,16,11);
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 10px solid transparent; /* needs to be wide enough to show image */
+    border-image-source: url(../pics/zerxtcvhimage.png);
+    image-rendering: smooth;
+    border-image-slice: 50;
+    border-image-repeat: stretch; /* or round */
+    border-image-width: 35px;
+    border-image-outset: 0;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 200px;
+    padding: 10px;
+}
+
+.right div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.pict{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url(../pics/3cae079ca0b9e55ec6bfc1b358c9b1e2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    box-shadow: 0 0 5px rgb(100,16,11);
+}
+
+.edit, .out{
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    font-style: oblique;
+    font-size: 15px;
+    border: 1px dashed rgb(100,16,11);
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.edit:hover, .out:hover{
+    box-shadow: 0 0 10px rgb(100,16,11);
+    background-color: rgba(255, 255, 255, 0.327);
+}
+
+.edit:active, .out:active{
+    background-color: rgba(128, 128, 128, 0.249);
+}
+
+.lign{
+    height: 200px;
+    border: 1px dashed rgb(100,16,11);
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+}
+
+.left div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left div{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.put{
+    width: 300px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid rgb(100,16,11);
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: black;
+    
+}
+
+.left div div label{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+}

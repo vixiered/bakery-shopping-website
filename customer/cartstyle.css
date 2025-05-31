@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'monsieur la doulaise';
+    src: url(../../fonts/monsieur-la-doulaise/MonsieurLaDoulaise-Regular.ttf);
+}
+
+.cartt{
+    height: auto;
+    width: auto;
+    font-family: 'monsieur la doulaise';
+    font-size: 70px;
+    color: rgb(100,16,11);
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.empty{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    margin: 50px;
+}
+
+.oneitem{
+    width: 1000px;
+    min-height: 150px;
+    border: 1px solid rgb(100,16,11);
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0 5px 0;
+}
+
+.iconn{
+    background-image: url();
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 130px;
+    box-shadow: 0 0 5px rgb(100,16,11);
+    margin: 20px;
+}
+
+.orinfo{
+    text-align: left;
+    width: 60%;
+}
+
+.kart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 10px solid transparent; /* needs to be wide enough to show image */
+    border-image-source: url(../pics/zerxtcvhimage.png);
+    image-rendering: smooth;
+    border-image-slice: 50;
+    border-image-repeat: stretch; /* or round */
+    border-image-width: 35px;
+    border-image-outset: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.total{
+    border-top: 1px dashed rgb(100,16,11);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.count,.pricee{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around ;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+    width: 100%;
+}
+
+.to{
+    font-weight: 600;
+}
+
+button.checkout:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.kerf{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.drip{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(100,16,11);
+    box-shadow: 0 0 5px rgb(100,16,11);
+    transition: 0.5s;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+}
+
+.drip:hover{
+     transform: scale(1.05);
+     box-shadow: 0 0 10px rgb(100,16,11);
+     transition: 0,5s;
+}
+
+.mnu{
+    background-color: rgba(255, 255, 255, 0.332);
+    border-radius: 5px;
+}
+

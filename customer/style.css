@@ -1,0 +1,313 @@
+/* HOME */
+@font-face {
+    font-family: 'monsieur la doulaise';
+    src: url(../../fonts/monsieur-la-doulaise/MonsieurLaDoulaise-Regular.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+} 
+
+.back{
+    background: linear-gradient(190deg, rgba(161, 0, 0, 0.299), rgba(255,0,0,0) 40%),
+            linear-gradient(127deg, rgba(84, 0, 0, 0.692), rgba(0,255,0,0) 40%),
+            linear-gradient(336deg, rgba(255, 212, 212, 0.861), rgb(255, 242, 242) 70.71%);
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0; 
+}
+
+.banner{
+    /* background-color: pink; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    /* margin-top: -260px;   */
+    
+}
+
+
+
+.awning{
+    background-image:url(../pics/Opera\ Instantané_2025-01-14_231741_fr.pinterest.com\ \(2\).png) ;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size:118%;
+    /* background-color: yellowgreen; */
+    height: 150px;
+    width: 100%;
+    animation: dropDown 1s ease-out  backwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* width: 100vw; */
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: height 0.5s ease;
+}
+
+@keyframes dropDown {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.upward{
+    height: 130px;
+    transition: height 0.5s ease;
+}
+
+.browsing{
+    width: 73.5%;
+    height: 50px;
+    /* background-color: tomato; */
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.browsing *{
+    width: 50px;
+    height: 50px;
+    /* background-color: aqua; */
+    margin: 0 30px 0 30px;
+    border-radius: 50%;
+}
+
+
+
+.cart{
+    background-image: url(../pics/imagefgh.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50% 50%;
+}
+
+.cart:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+
+.user{
+    background-image: url(../pics/3cae079ca0b9e55ec6bfc1b358c9b1e2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+
+.user:hover{
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+.vix{
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    /* background-color: rgba(64, 224, 208, 0.349); */
+    clip-path: inset(0 0 0 0);
+    transition: clip-path 0.5s ease;
+    transition-delay: 0.1s;
+}
+
+.short{
+    clip-path: inset(0 0 50% 0);
+}
+
+.vixie{
+    color: rgb(86, 0, 0);
+    background-image: url(../pics/461882331_1582203242715181_3736405560774483017_n.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 200px;
+    margin-bottom:0;
+    background-size: 100%;
+    text-indent: -9999999px;
+    animation: riseUp 1s ease-out forwards;
+    /* background-color: rgb(209, 209, 2); */
+    position: relative;
+    z-index: 20; /* higher than awning */
+    transition: width 0.7s ease, height 0.7s ease ,transform 0.7s ease,margin-bottom 0.7s ease;
+    
+}
+
+
+#main-header.shrink .vixie {
+    width: 133px;
+    height: 40px;
+    margin-bottom: 280px;
+    transition: width 0.5s ease, height 0.5s ease, margin-bottom 0.5s ease;
+}
+  
+
+.main1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99%;
+    margin-bottom: 40px;
+}
+
+.contain {
+    background-color: rgba(230, 230, 230, 0.92);
+    height: 400px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(110, 0, 0, 0.316);
+    animation: riseUp 1s ease-out 0.2s forwards;
+
+}
+
+
+@keyframes riseUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.curvy{
+    background-image: url(../pics/Opera\ Instantané_2025-01-14_231741_fr.png);
+    height: 370px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: -9px 0 -150px 0;
+}
+
+.wlcm{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+ul{
+    text-align: left;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color:aquamarine; */
+    height: 300px ;
+    width: 100%;
+}
+
+.service div{
+    width: 190px;
+    height: 270px;
+    box-shadow: 0 0 15px rgb(76, 76, 76);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size:118%;
+    border-radius: 5px; 
+    color: transparent; 
+    font-family:'monsieur la doulaise' ;
+    font-weight: 600; 
+}
+
+.service div:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-family:'monsieur la doulaise' ;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: rgb(255, 255, 255) 3px 0 10px;
+    background-color: rgba(0, 0, 0, 0.511);
+    background-blend-mode: darken ;
+}
+
+.baked{
+    background-image: url(../pics/c4c378ba2a3d10af24e7420daa3bf302.jpg);
+}
+
+.traditional{
+    background-image: url(../pics/0f19cd9fa43d5721ae1539072b2fdcc5.jpg);    
+}
+
+.wedings{
+    background-image: url(../pics/c7113235b0bb3dfa84e7c1255d6f5fb0.jpg);    
+}
+
+
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(100, 16, 11);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+}
+
+.footer ul{
+    text-align: left;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
